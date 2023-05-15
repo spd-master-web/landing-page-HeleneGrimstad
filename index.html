@@ -6,6 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Landing page Helene</title>
   <link rel="stylesheet" href="styles.css">
+  <script src="js/gsap.js"></script>
+  <script src="js/ScrollTrigger.js"></script>
 </head>
 <body>
   <header class="header">
@@ -25,7 +27,9 @@
       <div class="cover-text">
       <h1>AirPro Fryer</h1>
       <p>Fry smarter, not harder with Airpro Fryer!</p>
-      <a>Buy Now</a>
+      <div class="button-div">
+      <a class="button">Buy Now</a>
+      </div>
       </div>
     </section>
 
@@ -35,36 +39,38 @@
     </section>
 
     <section class="features">
-      <article>
+      <article class="feature-item">
       <img>
       <h3>Multiple Cooking Functions</h3>
       <p>crispy on the outside, juicy on the inside.</p>
       </article>
 
-      <article>
+      <article class="feature-item">
       <img>
       <h3>Fast and efficient cooking</h3>
       <p>Smart Device and Wi-Fi Connection.</p>
       </article>
 
-      <article>
+      <article class="feature-item">
       <img>
       <h3>AirPro App</h3>
       <p>The latest technology to provide you with fast and even cooking.</p>
       </article>
       
-      <article>
+      <article class="feature-item">
       <img>
       <h3>Up to 90% less fat</h3>
       <p>Healthy, fast cooking.</p>
       </article>
     </section>
 
-    <section class="text-section">
-      <article>
+    <section>
+      <article class="text-section">
       <h2>Cookbook</h2>
       <p>Our recipes are sure to please even the pickiest eaters. So why not give our AirPro Fryer recipes a try today?</p>
       </article>
+
+      <div class="card-display">
       <article class="card">
         <img src="/img/Oven-Baked-Zucchini-Fries.png">
         <h4>Parmesan Zucchini Fries</h4>
@@ -82,11 +88,11 @@
         <h4>Avocado Egg Rolls</h4>
         <p>Delicious and healthy twist on a classic appetizer.</p>
       </article>
+      </div>
 
     </section>
 
-
   </main>
-  
+
 </body>
 </html>
