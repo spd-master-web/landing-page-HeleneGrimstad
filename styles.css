@@ -6,7 +6,7 @@ body {
   display: flex;
   box-sizing: border-box;
   justify-content: space-between;
-  padding: 44px;
+  padding: 12px;
   background-color: #1E1E1E;
   color: #FFFFFF;
   width: 100%;
@@ -18,3 +18,38 @@ body {
   height: 40px;
 }
 
+.navigation {
+  display: flex;
+  box-sizing: border-box;
+  justify-content: space-between;
+  flex-direction: row;
+  padding: 12px;
+  border-bottom: #1E1E1E 2px solid;
+}
+
+.cover-card {
+  display: flex;
+  padding: 40px;
+}
+
+.cover-photo {
+  width: 50vw;
+}
+
+.cover-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-top: 80px;
+  padding-left: 20px;
+}
+
+.text-section {
+  padding: 40px;
+}
+
+.features {
+  display: flex;
+  padding: 40px;
+
+}
