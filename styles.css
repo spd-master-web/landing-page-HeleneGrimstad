@@ -51,5 +51,9 @@ body {
 .features {
   display: flex;
   padding: 40px;
+}
 
+.card {
+  width: auto;
+  height: 600px;
 }
