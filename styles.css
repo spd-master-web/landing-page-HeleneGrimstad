@@ -1,0 +1,20 @@
+body {
+  margin: auto 0;
+}
+
+.header {
+  display: flex;
+  box-sizing: border-box;
+  justify-content: space-between;
+  padding: 44px;
+  background-color: #1E1E1E;
+  color: #FFFFFF;
+  width: 100%;
+}
+
+.cart {
+  background-image: url(/img/cart.svg);
+  width: 40px;
+  height: 40px;
+}
+
