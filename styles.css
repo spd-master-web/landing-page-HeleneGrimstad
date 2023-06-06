@@ -1,0 +1,175 @@
+body {
+  margin: auto 0;
+}
+
+h1, h2, h3, h4, p{
+  font-family: Helvetica, sans-serif;
+}
+
+h1 {
+  font-size: 48px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+h3 {
+  margin: 0;
+}
+
+a {
+  font-family: Helvetica, sans-serif;
+  text-transform: uppercase;
+}
+
+.header {
+  display: flex;
+  box-sizing: border-box;
+  justify-content: space-between;
+  padding: 20px 40px 20px 40px;
+  background-color: #1E1E1E;
+  color: #FFFFFF;
+  width: 100%;
+}
+
+.logo {
+  width: 433px;
+  height: 42px;
+}
+
+.cart {
+  width: 40px;
+  height: 40px;
+}
+
+.navigation {
+  text-transform: uppercase;
+  display: flex;
+  box-sizing: border-box;
+  justify-content: space-between;
+  flex-direction: row;
+  padding: 12px 100px 12px 100px;
+  border-bottom: #1E1E1E 2px solid;
+}
+
+.cover-card {
+  display: flex;
+  padding: 40px;
+}
+
+.cover-photo {
+  width: 50vw;
+  height: 50vw;
+}
+
+.cover-text {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px 40px 0 40px;
+}
+
+.cover-text >p{
+  font-size: 30px;
+}
+
+.button-div {
+  align-self: center;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #FFFFFF;
+  background-color: #1E1E1E;
+  width: 150px;
+  height: 40px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.text-section {
+  padding: 40px 40px 80px 40px;
+}
+
+.text-section >p {
+  width: 80%;
+}
+
+.features-section {
+  background-color: #1E1E1E;
+  color: #FFFFFF;
+  display: flex;
+  flex-direction: row;
+  padding: 80px 40px 80px 40px;
+  justify-content: space-evenly;
+  height: 400px;
+}
+
+.feature-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 500px;
+  min-width: 350px;
+  
+}
+
+.feature-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 120px;
+  min-height: 125px;
+  justify-items: center;
+}
+
+.cooking {
+  background-image: url(/img/air-fryer.png);
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: 120px;
+}
+
+.app {
+  background-image: url(/img/AirPro-fryer-app.png);
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: 120px;
+}
+
+.wifi {
+  background-image: url(/img/smart-device-air-fryer.png);
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: 120px;
+}
+
+.heart {
+  background-image: url(/img/healthy-air-pro-fryer.png);
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: 120px;
+}
+
+
+.card {
+  width: auto;
+  height: 550px;
+  padding-right: 20px;
+  background-color: #FFFFFF;
+}
+
+.card-display {
+  display: flex;
+  padding: 40px;
+  overflow: hidden;
+  justify-content: center;
+}
+
+@media (max-width: 960px) {
+
+}
